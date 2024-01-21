@@ -61,7 +61,7 @@
                 }%
                 {}%
             \ifcommandkey{state}%
-                {\location{\ifcommandkey{city}{\commandkey{city}, }{}\commandkey{state}}}%
+                {\location{Brunsrade 4, 24114 \ifcommandkey{city}{\commandkey{city}, }{}\commandkey{state}}}%
                 {}%
         }
     \end{flushleft}
@@ -79,7 +79,7 @@
 }
 \newcommand{\objective}[1]{%
     \begin{flushleft}
-        \textsc{Objective}: #1
+        \textsc{Summary}: #1
     \end{flushleft}
 }
 
